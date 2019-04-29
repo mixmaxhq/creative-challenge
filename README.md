@@ -1,4 +1,4 @@
-# Mixmax Code Challenge
+# Mixmax Creative Code Challenge
 Periodic challenges to exercise your coding and creative skills.
 
 ## The Concept
@@ -21,9 +21,9 @@ The winner(s) get bragging rights, and should consider presenting their solution
 * Collaborate with others! Share the glory!
 
 ## How to Enter
-* Clone this repo: `git clone ssh://git@github.com/mixmaxhq/code-challenge.git`
+* Clone this repo: `git clone ssh://git@github.com/mixmaxhq/creative-challenge.git`
 * Create a new branch for your entry: `git checkout -b username/my-entry`.
-* Your entry should be in a subdirectory with your username inside the subdirectory for the challenge. E.g. Alice’s entry for the May 2019 challenge would be in `code-challenge/challenges/2019-05-mixmax-logo/alice`. If she submits a second entry, it could live in an `alice-2` subdirectory.
+* Your entry should be in a subdirectory with your username inside the subdirectory for the challenge. E.g. Alice’s entry for the May 2019 challenge would be in `creative-challenge/challenges/2019-05-mixmax-logo/alice`. If she submits a second entry, it could live in an `alice-2` subdirectory.
 * Make sure the instructions for running your entry are in a `README.md` file in your subdirectory.
 * Submit a PR when ready, and merge it when your entry is complete. No code review is necessary, but if your code doesn’t work you’re unlikely to win.
 
