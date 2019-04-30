@@ -20,6 +20,12 @@ The winner(s) get bragging rights, and should consider presenting their solution
 * Create more than one entry if you have more than one idea!
 * Collaborate with others! Share the glory!
 
+## Inspiration
+* [IOCCC](https://www.ioccc.org/)
+* [JS1k](https://js1k.com/)
+* [Programming Puzzles & Code Golf](https://codegolf.stackexchange.com/)
+* [p01](http://www.p01.org/)
+
 ## How to Enter
 * Clone this repo: `git clone ssh://git@github.com/mixmaxhq/creative-challenge.git`
 * Create a new branch for your entry: `git checkout -b username/my-entry`.
