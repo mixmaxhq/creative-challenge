@@ -7,7 +7,7 @@
     [].slice.call(document.getElementsByTagName('style')).forEach((style) => style.remove());
     document.querySelectorAll('link[rel=stylesheet]').forEach((style) => style.remove());
 
-    const text = '(' + M.toString().replace(/\s{2,}|\n/g, ' ') + ')();';
+    const text = '(' + M.toString().replace(/\s+|\n/g, '\xa0') + ')();';
 
     const style = document.createElement('style');
     style.innerHTML = 'body { background: #ddd; }'
