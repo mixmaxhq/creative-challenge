@@ -3,13 +3,13 @@
 My submission is a JavaScript function for printing an ASCII Mixmax logo of a given size using as few bytes of source code as possible: 
 
 ```js
-M=(n)=>{m=n-1
+M=n=>{m=n-1
 	k=2*m
 	b='|'.repeat(n)
 	for(i=0;i<k+1;i++){g=b;for(j in b)g+=(i<m?j<m-i:j>k-i)?' ':'/';console.log(g+g+b)}}
 ```
 
-It's 119 characters long<sup>1</sup> and like most code golf submissions is nearly indecipherable. Let's see it in action:
+It's ~~119~~ 117 characters long<sup>1</sup> and like most code golf submissions is nearly indecipherable. Let's see it in action:
 
 ```
 $ node logo.js
@@ -33,7 +33,7 @@ Cool! Want to try it out yourself? Paste it into your browser console and give i
 ## How does it work?
 Let's break it down:
 ```js
-M=(n)=>{  // n is the number of |'s in the vertical bars.
+M=n=>{  // n is the number of |'s in the vertical bars.
 	m=n-1 // First, let's define some constants for reuse later
 	k=2*m // k is the height of the logo
 	b='|'.repeat(n) // This forms the meat of the vertical bars of the M.
