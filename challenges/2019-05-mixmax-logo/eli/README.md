@@ -1,6 +1,6 @@
-# mixmin (51)
+# mixmin (48)
 
-An unoptimized but very terse (51 bytes) script that emits the Mixmax logo with the desired dimensions.
+An unoptimized but very terse (48 bytes) script that emits the Mixmax logo with the desired dimensions.
 
 ```bash
 $ pyth mixmin <<< $'50\n16'
