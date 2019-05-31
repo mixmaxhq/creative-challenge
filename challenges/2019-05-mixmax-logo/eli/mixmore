@@ -9,4 +9,4 @@ elif [[ "$#" -lt 1 ]] || [[ "$#" -gt 2 ]]; then
   echo 'usage: mixmore <width> [<height>]' >&2
   exit 1
 fi
-python3 /tmp/pyth/pyth.py -n mixmin <<< "$width"$'\n'"$height"
+pyth mixmin <<< "$width"$'\n'"$height"
