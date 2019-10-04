@@ -32,4 +32,5 @@ After you complete your entry, you should consider presenting your solution at t
 * Submit a PR when ready, and merge it when your entry is complete. No code review is necessary, but if your code doesn't work it's not as impressive.
 
 ## The Challenges
+* [October 2019: Slasher](./challenges/2019-10-slasher)
 * [May 2019: Mixmax Logo](./challenges/2019-05-mixmax-logo)
