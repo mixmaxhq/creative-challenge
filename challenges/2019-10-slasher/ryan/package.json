@@ -1,0 +1,25 @@
+{
+  "name": "mixmax-cat-facts",
+  "version": "0.0.1",
+  "description": "The API to power a Mixmax Cat Facts slash command.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "got": "^9.6.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/mixmax-cat-facts"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
